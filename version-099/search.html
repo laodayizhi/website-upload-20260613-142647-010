@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索-经典日韩剧集</title>
+  <meta name="description" content="搜索高清电影大全与热播剧集，按片名、地区、类型、年份或标签快速查找影片。">
+  <meta name="keywords" content="免费视频,在线观看,高清电影大全,热播剧集,日韩,影视爱好,更新快,体验">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-nav">
+    <a class="site-logo" href="index.html" aria-label="经典日韩剧集">
+      <span class="logo-mark">映</span>
+      <span class="logo-text">经典日韩剧集</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="videos.html">全部影片</a>
+      <a class="nav-link" href="categories.html">影视分类</a>
+      <a class="nav-link" href="rankings.html">热播排行</a>
+      <a class="nav-link is-active" href="search.html">搜索</a>
+    </nav>
+    <button class="mobile-menu-button" type="button" aria-label="打开菜单" data-menu-button>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动端导航" data-mobile-nav>
+    <a class="mobile-nav-link" href="index.html">首页</a>
+    <a class="mobile-nav-link" href="videos.html">全部影片</a>
+    <a class="mobile-nav-link" href="categories.html">影视分类</a>
+    <a class="mobile-nav-link" href="rankings.html">热播排行</a>
+    <a class="mobile-nav-link is-active" href="search.html">搜索</a>
+  </nav>
+</header>
+<main>
+
+<section class="page-hero compact-hero">
+  <div>
+    <p class="eyebrow">Search</p>
+    <h1>影片搜索</h1>
+    <p>输入片名、地区、类型、年份或标签，快速查找想看的影片。</p>
+  </div>
+</section>
+<section class="section-wrap">
+  <div class="search-page-box">
+    <input type="search" placeholder="搜索影片名称、地区、类型、年份或标签" data-search-page-input>
+    <button type="button" data-search-page-button>搜索</button>
+  </div>
+  <div class="movie-grid" id="searchResults"></div>
+  <p class="empty-state" data-search-empty>输入关键词后即可查看匹配影片。</p>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <span class="logo-mark">映</span>
+        <span>经典日韩剧集</span>
+      </div>
+      <p>本站为日韩影视爱好者提供免费视频在线观看，内容以高清电影大全和热播电视剧集为主，更新速度快，观看体验良好。</p>
+    </div>
+    <div class="footer-column">
+      <h2>影视分类</h2>
+      <ul>
+        <li><a href="category-japan-korea.html">日韩热播</a></li>
+        <li><a href="category-hd-movies.html">高清电影</a></li>
+        <li><a href="category-hot-series.html">热播剧集</a></li>
+        <li><a href="category-drama-art.html">剧情文艺</a></li>
+        <li><a href="category-action-crime.html">动作犯罪</a></li>
+        <li><a href="category-romance-comedy.html">爱情喜剧</a></li>
+        <li><a href="category-suspense-thriller.html">悬疑惊悚</a></li>
+        <li><a href="category-sci-fi-fantasy.html">科幻奇幻</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>快捷入口</h2>
+      <ul>
+        <li><a href="videos.html">全部影片</a></li>
+        <li><a href="rankings.html">热播排行</a></li>
+        <li><a href="search.html">影片搜索</a></li>
+        <li><a href="categories.html">分类总览</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>观看体验</h2>
+      <p>聚合高清电影与热播剧集，页面适配电脑与手机，详情页支持在线播放。</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 经典日韩剧集 · 高清电影大全与热播剧集</div>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
